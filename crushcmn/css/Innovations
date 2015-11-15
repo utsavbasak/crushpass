@@ -1,0 +1,25 @@
+.shuffle {
+  display: block;
+  text-indent: -9999px;
+  width: 100px;
+  height: 82px;
+  background: url(../img/shuffle24.svg);
+  background-size: 75px 75px;
+    transform-origin: 37px 37px;
+  -webkit-transform-origin: 50% 50%;
+  -webkit-animation: rotate 4s cubic-bezier(.49,.05,.32,1.04) infinite alternate;
+  animation: rotate 4s cubic-bezier(.49,.05,.32,1.04) infinite alternate;
+}
+
+
+@-webkit-keyframes rotate {
+  50% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate {
+  50% {
+    transform: rotate(360deg);
+  }
+}
