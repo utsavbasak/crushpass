@@ -1,0 +1,31 @@
+.shuffle {
+  background: url(../img/shuffle24.svg);
+  background-size: contain;
+  height: 100px;
+  width: 100px;	
+  position: relative;
+  top: 20px;
+  left: 100px;
+  -webkit-transition: all 0.7s ease;
+   transition: all 0.7s ease;
+}
+.list {
+  background: url(../img/checking1.svg);
+  background-size: contain;
+  height: 100px;
+  width: 100px;	
+  position: relative;
+  top: 20px;
+  left: -70px;
+  -webkit-transition: all 0.7s ease;
+   transition: all 0.7s ease;
+}
+.shuffle:hover {
+-webkit-transform: rotate(45deg);
+transform: rotate(45deg);
+}
+.list:hover {
+-webkit-transform: rotate(45deg);
+transform: rotate(45deg);
+}
+

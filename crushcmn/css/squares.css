@@ -1,0 +1,182 @@
+/* The start of the whole Square Button Thingies */
+#buttons1 {
+  padding-top: 0px;
+  text-align: center;
+}
+
+
+/* start da css for da buttons */
+.btn1 {
+  
+  border-radius: 5px;
+  padding: 50px 25px;
+  left:0;
+  font-size: 20px;
+  text-decoration: none;
+  margin: 20px;
+  color: #fff;
+  position: relative;
+  display: inline-block;
+ 
+}
+.btn2 {
+  
+  border-radius: 5px;
+  padding: 50px 25px;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+  margin: 20px;
+  color: #fff;
+  position: relative;
+  display: inline-block;
+ 
+}
+.btn1:active {
+  
+  -webkit-transform: translate(0px, 5px);
+  box-shadow: 0px 1px 0px 0px;
+}
+
+.blue {
+  background-color: #55acee;
+  box-shadow: 0px 5px 0px 0px #3C93D5;
+}
+
+.blue:hover {
+  background-color: #6FC6FF;
+}
+
+.green {
+  background-color: #2ecc71;
+  box-shadow: 0px 5px 0px 0px #15B358;
+}
+
+.green:hover {
+  background-color: #48E68B;
+}
+
+.red {
+  background-color: #e74c3c;
+  box-shadow: 0px 5px 0px 0px #CE3323;
+}
+
+.red:hover {
+  background-color: #FF6656;
+}
+
+.purple {
+  background-color: #9b59b6;
+  box-shadow: 0px 5px 0px 0px #82409D;
+}
+
+.purple:hover {
+  background-color: #B573D0;
+}
+
+.orange {
+  background-color: #e67e22;
+  box-shadow: 0px 5px 0px 0px #CD6509;
+}
+
+.orange:hover {
+  background-color: #FF983C;
+}
+
+.yellow {
+  background-color: #f1c40f;
+  box-shadow: 0px 5px 0px 0px #D8AB00;
+}
+
+.yellow:hover {
+  background-color: #FFDE29;
+}
+/* Source: http://codepen.io/anon/pen/zGyyeK?editors=110 */
+
+/* Sadie Effect */
+
+.bck{
+  
+  order-radius: 5px;
+  padding: 50px 25px;
+  font-size: 20px;
+  text-decoration: none;
+  margin: 20px;
+  color: #fff;
+  position: relative;
+  display: inline-block;
+
+}
+.buttonnew
+{
+    height: 25px;
+    width: 25px;
+    
+}
+
+
+.effect-sadie
+{
+
+  border-radius: 5px;
+  padding: 50px 25px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 20px;
+  color: #fff;
+  position: relative;
+  display: inline-block;
+
+}
+div.effect-sadie figcaption::before {
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(72,76,97,0) 0%, rgba(72,76,97,0.8) 75%);
+  content: '';
+  opacity: 0;
+  transform: translate3d(0,50%,0);
+}
+
+div.effect-sadie a {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  color: #484c61;
+  transition: transform 0.35s, color 0.35s;
+  transform: translate3d(0,-50%,0);
+}
+
+
+div.effect-sadie figcaption::before,
+div.effect-sadie button {
+  transition: opacity 0.35s, transform 0.35s;
+}
+
+div.effect-sadie button {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 1em;
+  width: 100%;
+  opacity: 0;
+  transform: translate3d(0,10px,0);
+}
+
+div.effect-sadie:hover a {
+  color: #fff;
+  transform: translate3d(0,-50%,0) translate3d(0,-40px,0);
+}
+
+div.effect-sadie:hover figcaption::before ,
+div.effect-sadie:hover button {
+  opacity: 1;
+  transform: translate3d(0,0,0);
+} 
